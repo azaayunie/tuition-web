@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*MIMI START SINI*/
+body{
+	margin: 20px 20px;
+}
+.section1{
+	padding-top: 20%;
+	height: 600px;
+	background-image: url(https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80);
+	text-align: center;
+	color: rgb(255, 144, 144);
+	text-shadow: -4px 4px 4px rgb(0, 0, 0);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+.section1_2{
+	height: 100px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80);
+	text-align: center;
+	color: #fff;
+	text-shadow: -3px 3px 3px rgb(0, 0, 0);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+
+.section1 h1{
+	font-size: 90px;
+}
+.section1_2 h1{
+	padding-top: 15px;
+	margin-top: 15px;
+	font-size: 55px;
+}
+
+.section1 h2{
+	margin-top: 15px;
+	font-size: 50px;
+}
+
+.section1 h3{
+	margin-top: 60px;
+	font-size: 35px;
+}
+
+.About-Us{
+	height: 700px;
+	color: rgb(0, 0, 0);
+	background-image: url(https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=709&q=80);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+}
+
+.Offerings{
+	width: 40%;
+	float: right;
+	padding-right: 13%;
+}
+
+.Offerings h2{
+	margin-top: 25%;
+	font-size: 50px;
+	text-shadow: 1px 1px black;
+}
+
+.Offerings p{
+	margin-top: 20px;
+	font-size: 25px;
+	text-shadow: 1px 1px black;
+}
+
+.Why-You-Should-Choose-Us {
+	display: flex;
+	justify-content: center;
+}
+
+.Experienced-And-Dedicated-Teachers, .Affordable-Fees, .Established-Name, .Tuition-with-a-Passion {
+	width: 33%;
+	height: 600px;
+	margin: 10px 5px;
+	text-align:center;
+	font-size: 35px;
+	color: white;
+	background-color: rgb(252, 74, 50); 
+	display: flex;
+	justify-content: center;
+}
+
+
+.title {
+	margin-top: auto;
+	margin-bottom:auto;
+	height: 500px;
+	width: 80%;
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+}
+
+
+.title h3 {
+	padding: 30px;
+	height:130px;
+}
+.title p{
+	border:2px solid white;
+	padding:5px;
+	padding-top:10px;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:5px;
+	height:250px;
+	
+}
+.Teachers_Picture{
+	width: 100%;
+	height: 600px;
+	margin: 10px 5px;
+	margin-top:0px;
+	font-size: 35px;
+	color: white;
+	background-color: rgb(252, 74, 50); 
+	display:flex;
+	justify-content:center;
+
+}
+.division2 {
+	width: 40%;
+	background-color: rgba(255,255,255,0.7);
+	padding:20px;
+	margin:10px;
+	margin-top:20px;
+	border-radius:5px;
+	display:inline-block;
+	text-align:center;
+	height:85%;
+	
+}
+.div_table {
+	width: 80%;
+	background-color: rgba(255,255,255,0.7);
+	padding:20px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+    letter-spacing:1px;	
+}
+
+.division3{
+	vertical-align:top;
+	width:100%;
+}
+.desc{
+	width:80%;
+	
+}
+.division3 p{
+display:inline-block;
+}
+.division2 p{
+	padding:5px;
+	padding-top:10px;
+	font-size:16px;
+	letter-spacing:1px;
+	margin:5px;
+	color:black;
+}
+
+.title:hover{
+	background-color: rgba(255,255,255,0.7);
+	color: white;
+	cursor: pointer;
+}
+.division2:hover{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	cursor: pointer;
+}
+
+/*the images*/
+
+.Experienced-And-Dedicated-Teachers{
+	background-image: url(https://images.unsplash.com/photo-1552581234-26160f608093?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Affordable-Fees{
+	background-image: url(https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9uZXl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Established-Name{
+	background-image: url(https://images.unsplash.com/photo-1604367285486-763bed037bd7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z29vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Tuition-with-a-Passion{
+	background-image: url(https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Teachers_Picture{
+    background: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Table_Picture{
+    background:url(jason-leung-Xaanw0s0pMk-unsplash.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:99%;
+}
+.image {
+height:250px;
+width:230px;
+border:3px solid white;
+border-radius:10px;
+}
+.stud{
+border:3px solid gray;
+border-radius:5px;	
+margin:20px;
+margin-top:7%;
+float:left;
+width:40%;
+}
+
+/*the table*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin:10px;
+  margin-left:auto;
+  margin-right:auto;
+  letter-spacing:1px;
+}
+
+table td, table th {
+  border: 1px solid #fff;
+  padding: 8px;
+}
+table tr {background-color: #a2d9f2;}
+table tr:nth-child(even){background-color: #daeef7;}
+
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #094dba;
+  color: white;
+}
+
+/*the top navigation*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-bottom:2px solid #b5b5b5;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 17px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing:1px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
